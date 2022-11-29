@@ -46,6 +46,7 @@ public class MoirePanel extends JPanel {
             double x2 = -length + i * dx;
             double y2 = -length;
 
+
             Line2D line = new Line2D.Double(x1, y1, x2, y2);
             Shape shape = transform.createTransformedShape(line);
 
